@@ -20,6 +20,7 @@ PoC project with Next.js and TailwindCSS for daily expense tracking
 - error panel usage for further cases when error can be happened
 - sophisticated filtering with dropdowns, type specific controls
 - adding a page to manage available category list
+- mobile-first responsive design (however current style is responsive, it is not optimized for mobile screens)
 - more tests of course
 
 ## functionalites
