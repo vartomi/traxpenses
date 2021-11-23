@@ -12,6 +12,16 @@ PoC project with Next.js and TailwindCSS for daily expense tracking
 
 - `npm run lint` for running ESLint and TSLint to ensure better and common code quality
 
+## room for improvements
+
+- sorting on server-side (render table on server-side) in case of huge amount of data
+- filtering on server-side in case of huge amount of data
+- additional validation, like date format, max character length, invalid date, invalid amount, etc.
+- error panel usage for further cases when error can be happened
+- sophisticated filtering with dropdowns, type specific controls
+- adding a page to manage available category list
+- more tests of course
+
 ## functionalites
 
 ### Landing page
@@ -32,13 +42,31 @@ Simple edit of an expense.
 ### Expenses table
 List of the expenses, you can sort some columns (asc and desc), there is possibility to Edit expense, and also filtering with quick search.
 
-![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/EmptyFieldValidation.png)
+![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/ExpenseTable.png)
+
+Sorting by Amount column.
+
+![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/SortDescAmountColumn.png)
+
+Searc for EUR related expenses.
+
+![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/QuickSearchFiltering.png)
+
+After some expenses were deleted.
+
+![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/DeleteSomeExpenses.png)
+
+A new test expense added.
+
+![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/NewExpenseAdded.png)
 
 
-- Expenses table
+### Error panel
+There is a PoC for handling error like http 404 (e.g. /api/expenses/randomid)
 
-- Sorting
+![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/ErrorPanel.png)
 
-- Quick search (filtering)
+### Cypress test
 
+![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/CypressTests.png)
 
