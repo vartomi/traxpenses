@@ -32,7 +32,7 @@ Simple "marketing" landing page to start track your expenses.
 
 
 ### Add/Edit/Delete expense
-There is simple validation for empty fields.
+There is simple validation for empty fields. Please use the app in Chrome, because in Safari for example the date input has no datepicker and the format validation is missing, it is a further improvement task.
 
 ![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/EmptyFieldValidation.png)
 
