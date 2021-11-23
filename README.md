@@ -14,11 +14,26 @@ PoC project with Next.js and TailwindCSS for daily expense tracking
 
 ## functionalites
 
-- Landing page
+### Landing page
+Simple "marketing" landing page to start track your expenses.
 
-- Add expense
+![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/LandingPage.png)
 
-- Edit/Delete expense
+
+### Add/Edit/Delete expense
+There is simple validation for empty fields.
+
+![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/EmptyFieldValidation.png)
+
+Simple edit of an expense.
+
+![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/EditExpense.png)
+
+### Expenses table
+List of the expenses, you can sort some columns (asc and desc), there is possibility to Edit expense, and also filtering with quick search.
+
+![landing page](https://github.com/vartomi/traxpenses/blob/main/wiki/EmptyFieldValidation.png)
+
 
 - Expenses table
 
